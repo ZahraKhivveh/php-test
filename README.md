@@ -1,4 +1,6 @@
-# Start for learning in PHP with Zahra Khivveh!
+# `Start for learning in PHP with Zahra Khivveh !`
+---
+![img](https://octodex.github.com/images/NUX_Octodex.gif)
 ---
 This repository contains my practice files and small projects created while learning PHP.  
 The goal of this repo is to strengthen my understanding of PHP basics and build a strong foundation for backend development.
