@@ -1,4 +1,5 @@
-<!-- <?php
+<?php
+/*
 echo "hello world";
 $number = 1404 ;
 echo $number ;
@@ -7,7 +8,7 @@ echo myconst ;
  
 echo "zaki";
 echo "hello world"; ?>
- -->
+ 
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -19,6 +20,33 @@ echo "hello world"; ?>
     <?php
 echo "salam";
 echo 1+1;
-    ?>
+    
  </body>
  </html>
+ */
+$test = "winter";
+var_dump($test);
+
+$num = 88;
+var_dump($num);
+
+$adad = 14.4;
+var_dump($adad);
+
+$bobo = true;
+var_dump($bobo);
+
+$a =10;
+$b =20;
+// $a = $a + $b;
+$a += $b ;
+echo $a ;
+
+$x = 14;
+$y = 10;
+var_dump($x < $y);
+
+$e =100;
+// ++$e;
+echo $e++;
+?>
