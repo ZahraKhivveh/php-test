@@ -91,8 +91,8 @@ switch($a){
       
 
        <?php
-       for($i = 0 ; $i <=5 ; $i++){
-         echo $i . "<br>";
+       for($i = 0 ; $i <=10 ; $i++){
+         echo $i ;
        }
 
        $t = 0;
@@ -102,4 +102,33 @@ switch($a){
       }
       $array = ["a" , "b" , "c"];
       var_dump($array);
+      "<br>";
+      $sss =[1 , 2, 3, 4, 5];
+      foreach($sss as $sss){
+         echo $sss;
+      }
+
+      $int = null;
+      echo empty ($int);
+      var_dump($int);
+
+      $u=10;
+      if(isset($u)){
+         echo"isset";
+      }else{
+         echo"not isset";
+      }
+
+      function fal(){
+         echo 1 ."<br>";
+         echo "maryam" ."<br>";
+         echo "true" ."<br>";
+      }
+      fal();
+
+      function value($name){
+         echo "hello $name";
+      }
+      value("zari");
+
 ?>
