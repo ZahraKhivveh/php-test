@@ -71,7 +71,7 @@ switch($a){
    echo 'false' ;
 } -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="UTF-8">
@@ -87,8 +87,19 @@ switch($a){
             
          </form>
       </body>
-      </html>
-      <?php
-      echo $_GET['username'];
-            
+      </html> -->
+      
+
+       <?php
+       for($i = 0 ; $i <=5 ; $i++){
+         echo $i . "<br>";
+       }
+
+       $t = 0;
+       while($t <=1){
+         $t++;
+         echo $t . "<br>";
+      }
+      $array = ["a" , "b" , "c"];
+      var_dump($array);
 ?>
