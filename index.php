@@ -91,44 +91,73 @@ switch($a){
       
 
        <?php
-       for($i = 0 ; $i <=10 ; $i++){
-         echo $i ;
-       }
+      //  for($i = 0 ; $i <=10 ; $i++){
+      //    echo $i ;
+      //  }
 
-       $t = 0;
-       while($t <=1){
-         $t++;
-         echo $t . "<br>";
-      }
-      $array = ["a" , "b" , "c"];
-      var_dump($array);
-      "<br>";
-      $sss =[1 , 2, 3, 4, 5];
-      foreach($sss as $sss){
-         echo $sss;
-      }
+      //  $t = 0;
+      //  while($t <=1){
+      //    $t++;
+      //    echo $t . "<br>";
+      // }
+      // $array = ["a" , "b" , "c"];
+      // var_dump($array);
+      // "<br>";
+      // $sss =[1 , 2, 3, 4, 5];
+      // foreach($sss as $sss){
+      //    echo $sss;
+      // }
 
-      $int = null;
-      echo empty ($int);
-      var_dump($int);
+      // $int = null;
+      // echo empty ($int);
+      // var_dump($int);
 
-      $u=10;
-      if(isset($u)){
-         echo"isset";
-      }else{
-         echo"not isset";
-      }
+      // $u=10;
+      // if(isset($u)){
+      //    echo"isset";
+      // }else{
+      //    echo"not isset";
+      // }
 
-      function fal(){
-         echo 1 ."<br>";
-         echo "maryam" ."<br>";
-         echo "true" ."<br>";
-      }
-      fal();
+      // function fal(){
+      //    echo 1 ."<br>";
+      //    echo "maryam" ."<br>";
+      //    echo "true" ."<br>";
+      // }
+      // fal();
 
-      function value($name){
-         echo "hello $name";
-      }
-      value("zari");
+      // function value($name){
+      //    echo "hello $name";
+      // }
+      // value("zari");
+      ?>
 
-?>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>calcutation</title>
+      </head>
+      <body>
+         <form action="index.php" method="post">
+         <input type="text" name="num1">
+         <br>
+         <br>
+         <input type="text" name="num2">
+         <br>
+         <br>
+         <select name="sign" id="">
+         <option value="+">+</option>
+         <option value="-">-</option>
+         <option value="*">*</option>
+         <option value="/">/</option>
+         </select>
+         <button>calculation</button>
+         </form>
+      </body>
+      </html>
+      <?php
+      
+      ?>
+
