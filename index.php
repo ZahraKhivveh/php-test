@@ -158,6 +158,28 @@ switch($a){
       </body>
       </html>
       <?php
-      
+      if (isset($_POST['num1']) && isset($_POST['num2'])){
+         $number1 = $_POST['num1'];
+         $number2 = $_POST['num2'];
+         $operator = $_POST['sign'];
+
+         switch($operator){
+            case "+";
+            $result = $number1 + $number2 ;
+            break;
+            case "-";
+            $result = $number1 - $number2 ;
+            break;
+            case "/";
+            $result = $number1 / $number2 ;
+            break;
+            case "*";
+            $result = $number1 * $number2 ;
+            break;
+            default;
+            $result ="unvalued";
+         }
+         echo $result;
+      }
       ?>
 
