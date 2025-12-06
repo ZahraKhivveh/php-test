@@ -179,7 +179,19 @@ switch($a){
             default;
             $result ="unvalued";
          }
-         echo $result;
+         echo $result . "<br>";
+         echo gettype($result). "<br>" ;
+      }
+
+      define('username' , 'zari');
+      echo 'username';
+
+      $a = 20;
+      $b = 30;
+      if($a = 20 and $b = 30){
+         echo "true";
+      }else{
+         echo "false";
       }
       ?>
 
