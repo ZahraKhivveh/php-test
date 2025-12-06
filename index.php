@@ -130,68 +130,77 @@ switch($a){
       //    echo "hello $name";
       // }
       // value("zari");
-      ?>
+      
 
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>calcutation</title>
-      </head>
-      <body>
-         <form action="index.php" method="post">
-         <input type="text" name="num1">
-         <br>
-         <br>
-         <input type="text" name="num2">
-         <br>
-         <br>
-         <select name="sign" id="">
-         <option value="+">+</option>
-         <option value="-">-</option>
-         <option value="*">*</option>
-         <option value="/">/</option>
-         </select>
-         <button>calculation</button>
-         </form>
-      </body>
-      </html>
-      <?php
-      if (isset($_POST['num1']) && isset($_POST['num2'])){
-         $number1 = $_POST['num1'];
-         $number2 = $_POST['num2'];
-         $operator = $_POST['sign'];
+       // <!DOCTYPE html>
+      // <html lang="en">
+      // <head>
+      //    <meta charset="UTF-8">
+      //    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      //    <title>calcutation</title>
+      // </head>
+      // <body>
+      //    <form action="index.php" method="post">
+      //    <input type="text" name="num1">
+      //    <br>
+      //    <br>
+      //    <input type="text" name="num2">
+      //    <br>
+      //    <br>
+      //    <select name="sign" id="">
+      //    <option value="+">+</option>
+      //    <option value="-">-</option>
+      //    <option value="*">*</option>
+      //    <option value="/">/</option>
+      //    </select>
+      //    <button>calculation</button>
+      //    </form>
+      // </body>
+      // </html>
+      
+      // if (isset($_POST['num1']) && isset($_POST['num2'])){
+      //    $number1 = $_POST['num1'];
+      //    $number2 = $_POST['num2'];
+      //    $operator = $_POST['sign'];
 
-         switch($operator){
-            case "+";
-            $result = $number1 + $number2 ;
-            break;
-            case "-";
-            $result = $number1 - $number2 ;
-            break;
-            case "/";
-            $result = $number1 / $number2 ;
-            break;
-            case "*";
-            $result = $number1 * $number2 ;
-            break;
-            default;
-            $result ="unvalued";
-         }
-         echo $result . "<br>";
-         echo gettype($result). "<br>" ;
-      }
+      //    switch($operator){
+      //       case "+";
+      //       $result = $number1 + $number2 ;
+      //       break;
+      //       case "-";
+      //       $result = $number1 - $number2 ;
+      //       break;
+      //       case "/";
+      //       $result = $number1 / $number2 ;
+      //       break;
+      //       case "*";
+      //       $result = $number1 * $number2 ;
+      //       break;
+      //       default;
+      //       $result ="unvalued";
+      //    }
+      //    echo $result . "<br>";
+      //    echo gettype($result). "<br>" ;
+      // }
 
-      define('username' , 'zari');
-      echo 'username';
+      // define('username' , 'zari');
+      // echo 'username';
 
-      $a = 20;
-      $b = 30;
-      if($a = 20 and $b = 30){
-         echo "true";
-      }else{
-         echo "false";
-      }
+      // $a = 20;
+      // $b = 30;
+      // if($a = 20 and $b = 30){
+      //    echo "true";
+      // }else{
+      //    echo "false" . "<br>";
+      // }
+      // ($a == 210)? "true" : "false";
+
+      $user = [1 , 2 , 3 , 4];
+      echo "<pre>";
+      var_dump($user);
+      echo "</pre>" ;
+
+
+
       ?>
 
