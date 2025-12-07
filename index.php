@@ -195,18 +195,37 @@ switch($a){
       // }
       // ($a == 210)? "true" : "false";
 
-      $user = [1 , 2 , 3 , 4];
-      echo "<pre>";
-      var_dump($user);
-      echo "</pre>" ;
+      // $user = [1 , 2 , 3 , 4];
+      // echo "<pre>";
+      // var_dump($user);
+      // echo "</pre>" ;
 
-      $people = [
-         'name'=> "ali",
-         'age'=>33,
-         'job'=>"artz"
-      ];
-      echo $people['job'];
+      // $people = [
+      //    'name'=> "ali",
+      //    'age'=>33,
+      //    'job'=>"artz"
+      // ];
+      // echo $people['job'];
 
+      $i = 2;
+      while($i <= 10){
+         $i++;
+         echo $i;
+      }
+       echo "<hr>";
+       echo $_SERVER['PHP_SELF'];
+       echo "<hr>";
+       echo $_SERVER['SERVER_NAME'];
+       echo "<hr>";
+       echo $_SERVER['HTTP_REFERER'];
+       echo "<hr>";
+       echo $_SERVER['HTTP_HOST'];
+       echo "<hr>";
+       echo $_SERVER['REMOTE_ADDR'];
+       echo "<hr>";
+       echo $_SERVER['SERVER_ADDR'];
+       echo "<hr>";
+       echo "<hr>";
 
 
       ?>
