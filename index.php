@@ -200,6 +200,13 @@ switch($a){
       var_dump($user);
       echo "</pre>" ;
 
+      $people = [
+         'name'=> "ali",
+         'age'=>33,
+         'job'=>"artz"
+      ];
+      echo $people['job'];
+
 
 
       ?>
