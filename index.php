@@ -207,6 +207,8 @@ switch($a){
       // ];
       // echo $people['job'];
 
+      // session_start();
+
       $i = 2;
       while($i <= 10){
          $i++;
@@ -225,8 +227,16 @@ switch($a){
        echo "<hr>";
        echo $_SERVER['SERVER_ADDR'];
        echo "<hr>";
+       echo $_SESSION['name'] ="zahra";
        echo "<hr>";
+       $name = "schuler";
 
+       setcookie('4',$name);
+       if(isset($_COOKIE['4'])){
+         echo $name." ". "set as cookie";
+       }else{
+         echo $name ." "."is not set as cookie";
+       }
 
       ?>
 
